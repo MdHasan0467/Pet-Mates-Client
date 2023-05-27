@@ -1,10 +1,9 @@
-import Lottie from 'lottie-react';
-import groomingAnimation from "../../assets/Animation/pets-family.json"
-import {  FaHospitalUser } from 'react-icons/fa';
+import { FaHospitalUser } from "react-icons/fa";
 
-const VaterinaryCare = () => {
-  return (
-    <div className='mx-28 mt-20 rounded-lg '>
+
+const PetAdoption = () => {
+    return (
+        <div className='mx-28 mt-20 rounded-lg '>
        <div className='flex items-center'>
         <FaHospitalUser className='text-5xl gap-4 text-sky-600 mx-2'></FaHospitalUser>
          <h1 className='text-4xl text-cyan-900 font-bold my-16 text-start'>Veterinary Care</h1>
@@ -33,7 +32,7 @@ const VaterinaryCare = () => {
                 </div>
        </div>
     </div>
-  )
-}
+    );
+};
 
-export default VaterinaryCare
+export default PetAdoption;

@@ -5,7 +5,9 @@ import News from "../components/Home/News";
 import PetGoods from "../components/Home/PetGoods";
 import PetsHotel from "../components/Home/PetsHotel";
 import ServiceCategories from "../components/Home/ServiceCategories";
+import Testimonials from "../components/Home/Testimonials";
 import VaterinaryCare from "../components/Home/VaterinaryCare";
+import PetPlaying from "../components/PetPlaying";
 
 const Home = () => {
     return (
@@ -18,6 +20,8 @@ const Home = () => {
             <Discount />
             <VaterinaryCare />
             <News />
+            <PetPlaying />
+            <Testimonials />
         </>
     );
 };

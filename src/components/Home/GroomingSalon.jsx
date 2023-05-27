@@ -1,12 +1,16 @@
+import { BsScissors } from "react-icons/bs";
 
 
 const GroomingSalon = () => {
     return (
-        <div className="mx-20 my-10">
-            <h1 className="text-4xl text-sky-600 font-semibold">Grooming Salon</h1>
+        <div className="mx-20 my-20">
+            <h1 className="text-4xl flex text-sky-600 my-5 font-semibold">
+                <BsScissors />
+                <span className="mx-2">Grooming Salon</span>
+                </h1>
 
             <div className="grid grid-cols-1 lg:grid-cols-2">
-               <div className="mt-20">
+               <div>
                 <div className="my-3">
                 <h1 className="text-2xl font-semibold text-sky-600">Bath & Brush</h1>
                 <p className="text-slate-400">Bath, nail trim, ear cleaning, paw & pad trim, sanitary trim, anal gland cleaning & more.</p>
