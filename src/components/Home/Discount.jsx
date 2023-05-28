@@ -1,4 +1,3 @@
-import '../../CSS/Discount.css'
 import { FaCat } from 'react-icons/fa'
 
 const Discount = () => {
@@ -13,7 +12,7 @@ const Discount = () => {
 
          <div className='grid lg:grid-cols-4 grid-cols-1 gap-6 mx-5'>
           
-         <div className="max-w-xs p-2 bg-sky-50 rounded-md shadow-md dark:bg-gray-900 dark:text-gray-50 relative">
+         <div className="max-w-xs p-2 hover:bg-sky-50 cursor-pointer rounded-md shadow-md dark:bg-gray-900 dark:text-gray-50 relative">
         <img src="https://source.unsplash.com/random/300x300/?1" alt="" className="object-cover object-center w-full rounded-md h-72 dark:bg-gray-500" />
         <div className='bg-white  w-2/3 rounded-full absolute top-[280px] left-10 text-red-500 text-center'>November 29, 2022</div>
         <div className="mt-6 mb-2 p-4">
@@ -23,7 +22,7 @@ const Discount = () => {
          </div>
 
           
-         <div className="max-w-xs p-2 bg-sky-50 rounded-md shadow-md dark:bg-gray-900 dark:text-gray-50 relative">
+         <div className="max-w-xs p-2 hover:bg-sky-50 cursor-pointer rounded-md shadow-md dark:bg-gray-900 dark:text-gray-50 relative">
         <img src="https://source.unsplash.com/random/300x300/?1" alt="" className="object-cover object-center w-full rounded-md h-72 dark:bg-gray-500" />
         <div className='bg-white  w-2/3 rounded-full absolute top-[280px] left-10 text-red-500 text-center'>November 29, 2022</div>
         <div className="mt-6 mb-2 p-4">
@@ -33,7 +32,7 @@ const Discount = () => {
          </div>
 
           
-         <div className="max-w-xs p-2 bg-sky-50 rounded-md shadow-md dark:bg-gray-900 dark:text-gray-50 relative">
+         <div className="max-w-xs p-2 hover:bg-sky-50 cursor-pointer rounded-md shadow-md dark:bg-gray-900 dark:text-gray-50 relative">
         <img src="https://source.unsplash.com/random/300x300/?1" alt="" className="object-cover object-center w-full rounded-md h-72 dark:bg-gray-500" />
         <div className='bg-white  w-2/3 rounded-full absolute top-[280px] left-10 text-red-500 text-center'>November 29, 2022</div>
         <div className="mt-6 mb-2 p-4">
@@ -43,7 +42,7 @@ const Discount = () => {
          </div>
 
           
-         <div className="max-w-xs p-2 bg-sky-50 rounded-md shadow-md dark:bg-gray-900 dark:text-gray-50 relative">
+         <div className="max-w-xs p-2 hover:bg-sky-50 cursor-pointer rounded-md shadow-md dark:bg-gray-900 dark:text-gray-50 relative">
         <img src="https://source.unsplash.com/random/300x300/?1" alt="" className="object-cover object-center w-full rounded-md h-72 dark:bg-gray-500" />
         <div className='bg-white  w-2/3 rounded-full absolute top-[280px] left-10 text-red-500 text-center'>November 29, 2022</div>
         <div className="mt-6 mb-2 p-4">

@@ -1,4 +1,3 @@
-import '../../css/News.css'
 import { FaCat } from 'react-icons/fa'
 
 const News = () => {

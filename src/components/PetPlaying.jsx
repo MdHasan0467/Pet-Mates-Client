@@ -5,7 +5,7 @@ import { FaCat } from 'react-icons/fa';
 const PetPlaying = () => {
     return (
         <div>
-            <section className="dark:bg-gray-800 dark:text-gray-100 my-10">
+            <section className="bg-sky-50 my-10">
 	<div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mx-10">
 		
 
